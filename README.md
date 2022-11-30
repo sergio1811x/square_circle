@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+задание взято из https://habr.com/ru/post/691986/  , 
+  https://github.com/mSnus/test-task#readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Тестовое задание:
 
-## Available Scripts
+Написать приложение "Круги и квадраты" с использованием React+Redux+Axios.
 
-In the project directory, you can run:
+Выглядеть должно примерно так:
+- [ссылка на макет Figma](https://www.figma.com/file/DaktkhoeaQEUagJ03Gk3r1/circles_and_squares_1?node-id=0%3A1)
+- [прототип в PNG](proto/)
 
-### `npm start`
+Данные для приложения - файл [/data/test.json](data/test.json)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Приложение отображает объекты из файла данных. 
+Каждый объект имеет следующие параметры:
+- форма: круг или квадрат
+- цвет: красный, синий, желтый, зеленый
+- яркость: тёмный или светлый
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+У приложения есть две зоны управления состоянием:
+1) фильтр по форме вверху приложения
+2) набор фильтров в меню, выезжающем по тапу на "бургере"
 
-### `npm test`
+Для отображения используются результаты обеих зон одновременно.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Вёрстка/дизайн неважны, интересует именно React.
