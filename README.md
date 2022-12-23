@@ -1,6 +1,8 @@
 задание взято из https://habr.com/ru/post/691986/  , 
   https://github.com/mSnus/test-task#readme
   
+npm install - установка зависимостей
+  
 npm start - версия production 
 
 npm run dev - версия development
