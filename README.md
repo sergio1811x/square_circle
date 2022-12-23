@@ -1,5 +1,10 @@
 задание взято из https://habr.com/ru/post/691986/  , 
   https://github.com/mSnus/test-task#readme
+  
+npm start - версия production
+npm run dev - версия development
+npm run build:dev сборка версии для разработки
+npm run build:prod сборка версии для продакшн
 
 # Тестовое задание:
 
