@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+
 
 
 const OpenMenu = ({changeColor, onChangeColor, radioButton, onChangeDark}) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+
 
 const Content = ({data, changeColor, changeForm, changeDark, radioButton}) => {
     return (
