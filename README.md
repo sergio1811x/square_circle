@@ -9,7 +9,6 @@ npm run dev - версия development
 
 npm run build:dev сборка версии для разработки
 
-npm run build:prod сборка версии для продакшн
 
 # Тестовое задание:
 
