@@ -3,11 +3,7 @@
   
 npm install - установка зависимостей
   
-npm start - версия production 
-
 npm run dev - версия development
-
-npm run build:dev сборка версии для разработки
 
 
 # Тестовое задание:
