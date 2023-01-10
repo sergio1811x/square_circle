@@ -1,4 +1,6 @@
   
+https://sergio1811x.github.io/test_task-square_circle/  
+  
 npm install - установка зависимостей
   
 npm run dev - версия development
