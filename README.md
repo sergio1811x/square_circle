@@ -6,8 +6,6 @@ npm run dev - версия development
 
 # Тестовое задание:
 
-Написать приложение "Круги и квадраты" с использованием React+Redux+Axios.
-
 Выглядеть должно примерно так:
 - [ссылка на макет Figma](https://www.figma.com/file/DaktkhoeaQEUagJ03Gk3r1/circles_and_squares_1?node-id=0%3A1)
 - [прототип в PNG](proto/)
