@@ -1,5 +1,5 @@
   
-### https://sergio1811x.github.io/test_task-square_circle/  
+### https://sergio1811x.github.io/square_circle/  
 
 
 Приложение отображает объекты из файла данных. 
